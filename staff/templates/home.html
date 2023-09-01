@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+
+    <div class="container">
+
+        <div class="card" style="width: 18rem; margin: 130px auto;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a href="{% url 'addnew' %}">Add New Staff</a></li>
+              <li class="list-group-item"><a href="">View Staff Details</a></li>
+              <li class="list-group-item"><a href="{% url 'newuser' %}">Register New User</a></li>
+            </ul>
+        </div>
+        
+        
+        
+    </div>
+
+{% endblock %}
